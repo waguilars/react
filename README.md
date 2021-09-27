@@ -2,6 +2,28 @@
 
 React template using vite with my personal config.
 
+## Usage
+
+After clone the repo make an `npm install`
+
+### Run dev mode
+
+```
+npm run dev
+```
+
+### Make a build
+
+```
+npm run build
+```
+
+### Run tests
+
+```
+npm run test
+```
+
 
 ## Features
 

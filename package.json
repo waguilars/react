@@ -6,7 +6,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint .",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "dependencies": {
     "react": "^17.0.0",
