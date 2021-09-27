@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:react/jsx-runtime",
+    "plugin:import/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jest", "simple-import-sort", "import"],
+  "rules": {
+    "react/jsx-one-expression-per-line": 0,
+    "react/require-default-props": 0,
+    "import/no-extraneous-dependencies": 0,
+    "arrow-body-style": 0
+  }
+}
