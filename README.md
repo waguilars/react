@@ -5,8 +5,6 @@ React template using vite with my personal config.
 
 ## Features
 
----
-
 - Vite
 - eslint with
   - airbnb styleguide
