@@ -21,6 +21,7 @@
     "react/jsx-one-expression-per-line": 0,
     "react/require-default-props": 0,
     "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
     "arrow-body-style": 0
   }
 }
