@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "outDir": "dist",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@data/*": ["src/data/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@routers/*": ["src/routers/*"],
+      "@selectors/*": ["src/selectors/*"],
+    },
+    "resolveJsonModule": true,
+  },
+  "include": ["src/**/*"]
+}
