@@ -18,10 +18,16 @@
   },
   "plugins": ["react", "jest", "simple-import-sort", "import"],
   "rules": {
-    "react/jsx-one-expression-per-line": 0,
-    "react/require-default-props": 0,
+    "arrow-body-style": 0,
     "import/no-extraneous-dependencies": 0,
     "import/no-unresolved": 0,
-    "arrow-body-style": 0
+    "import/extensions": 0,
+    "import/first": 1,
+    "import/newline-after-import": 1,
+    "import/no-duplicates": 1,
+    "simple-import-sort/imports": 1,
+    "simple-import-sort/exports": 1,
+    "react/jsx-one-expression-per-line": 0,
+    "react/require-default-props": 0
   }
 }
