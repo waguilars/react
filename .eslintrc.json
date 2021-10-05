@@ -5,29 +5,15 @@
     "es2021": true
   },
   "extends": [
-    "airbnb",
-    "plugin:react/jsx-runtime",
-    "plugin:import/recommended"
+    "standard", "standard-jsx"
   ],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": 12,
-    "sourceType": "module"
-  },
-  "plugins": ["react", "jest", "simple-import-sort", "import"],
+  "plugins": ["simple-import-sort", "import"],
   "rules": {
-    "arrow-body-style": 0,
-    "import/no-extraneous-dependencies": 0,
-    "import/no-unresolved": 0,
-    "import/extensions": 0,
     "import/first": 1,
     "import/newline-after-import": 1,
     "import/no-duplicates": 1,
+    "semi": [1, "always"],
     "simple-import-sort/imports": 1,
-    "simple-import-sort/exports": 1,
-    "react/jsx-one-expression-per-line": 0,
-    "react/require-default-props": 0
+    "simple-import-sort/exports": 1
   }
 }
