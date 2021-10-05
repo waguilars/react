@@ -13,6 +13,9 @@
       "@selectors/*": ["src/selectors/*"],
     },
     "resolveJsonModule": true,
+    "types": [
+      "vite/client"
+    ]
   },
   "include": ["src/**/*"]
 }
