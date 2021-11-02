@@ -1,3 +1,7 @@
+const hq = require('alias-hq')
+
+const aliases = hq.get('jest')
+
 module.exports = {
   roots: ['<rootDir>/src'],
   setupFilesAfterEnv: ['<rootDir>/src/jest.setup.js'],
@@ -8,9 +12,7 @@ module.exports = {
     '<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}',
   ],
   moduleNameMapper: {
-    '^@hooks/(.*)$': '<rootDir>/src/hooks/$1',
-    '^@components/(.*)$': '<rootDir>/src/components/$1',
-    '^@pages/(.*)$': '<rootDir>/src/pages/$1',
+    ...aliases,
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
   },
   testEnvironment: 'jsdom',

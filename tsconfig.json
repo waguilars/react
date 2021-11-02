@@ -5,13 +5,11 @@
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "outDir": "dist",
-    "paths": {
-      "@/*": ["src/*"],
-    },
     "resolveJsonModule": true,
-    "types": [
-      "vite/client"
-    ]
+    "types": ["vite/client"],
+    "paths": {
+      "@components/*": ["src/components/*"]
+    }
   },
   "include": ["src/**/*"]
 }
