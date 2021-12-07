@@ -6,7 +6,9 @@ import hq from 'alias-hq'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react({
+    fastRefresh: process.env.NODE_ENV !== 'test'
+  })],
   resolve: {
     alias: hq.get('rollup')
   },
