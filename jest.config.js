@@ -6,6 +6,7 @@ export default {
   preset: 'vite-jest',
   roots: ['<rootDir>/src'],
   setupFilesAfterEnv: ['<rootDir>/src/jest.setup.js'],
+  setupFiles: ['react-app-polyfill/jsdom'],
   testMatch: [
     '<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}',
     '<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}',
