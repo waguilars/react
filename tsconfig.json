@@ -2,6 +2,8 @@
   "compilerOptions": {
     "allowJs": true,
     "baseUrl": ".",
+    "module": "ES2020",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "outDir": "dist",
@@ -11,5 +13,5 @@
       "@components/*": ["src/components/*"]
     }
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*.js", "src/**/*.jsx"]
 }
